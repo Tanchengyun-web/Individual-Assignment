@@ -12,8 +12,8 @@ stock_names = {
     "1295.KL": "Public Bank Bhd"
 }
 
-start_date = "2026-01-01"  
-end_date = "2026-02-01"
+start_date = "2026-05-01"  
+end_date = "2026-06-01"
 stock_data = yf.download(stock_tickers, start=start_date, end=end_date)
 close_prices = stock_data["Close"]
 
